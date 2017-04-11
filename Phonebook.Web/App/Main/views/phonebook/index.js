@@ -5,9 +5,6 @@
         function ($scope) {
             var vm = this;
 
-            $scope.$on('$viewContentLoaded', function () {
-                Metronic.initAjax();
-            });
 
         }
     ]);

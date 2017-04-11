@@ -1082,3 +1082,315 @@ DEBUG 2017-04-10 13:20:21,904 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2017-04-10 13:20:21,905 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2017-04-10 13:20:21,906 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2017-04-10 13:20:21,906 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-04-10 17:07:41,918 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-10 17:07:41,937 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-04-10 17:07:41,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Web.PhonebookWebModule, Phonebook.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookDataModule, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookCoreModule, Phonebook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookApplicationModule, Phonebook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Api.PhonebookWebApiModule, Phonebook.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:41,953 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-04-10 17:07:42,111 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-10 17:07:42,111 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-10 17:07:42,111 [1    ] o.Configuration.LanguageManagementConfig - Converted Phonebook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-10 17:07:42,111 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-10 17:07:42,603 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Phonebook.EntityFramework.PhonebookDbContext, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 17:07:44,245 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-10 17:07:44,254 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-10 17:07:44,256 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-10 17:07:44,258 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Phonebook
+DEBUG 2017-04-10 17:07:44,260 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-10 17:07:44,378 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-10 17:07:44,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-04-10 17:07:44,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-10 17:07:44,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-10 17:07:44,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.CreateUserInput
+DEBUG 2017-04-10 17:07:44,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.UserListDto
+DEBUG 2017-04-10 17:07:44,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-04-10 17:07:44,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-10 17:07:44,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-10 17:07:46,485 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-10 17:07:46,487 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-10 17:07:46,488 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-10 17:07:46,490 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-04-10 17:07:52,902 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f1e29bb1-4bc9-4a1b-a56e-e92024d7a22a","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-04-10T17:07:52.8910409+02:00","Properties":{}}
+DEBUG 2017-04-10 17:07:52,942 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f1e29bb1-4bc9-4a1b-a56e-e92024d7a22a
+DEBUG 2017-04-10 17:08:11,399 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f1e29bb1-4bc9-4a1b-a56e-e92024d7a22a
+DEBUG 2017-04-10 17:08:12,861 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ab04dd9b-cf13-4652-b77f-78125ffecc04","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-04-10T17:08:12.8604448+02:00","Properties":{}}
+DEBUG 2017-04-10 17:08:12,895 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ab04dd9b-cf13-4652-b77f-78125ffecc04
+DEBUG 2017-04-10 21:38:22,584 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-10 21:38:22,593 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-04-10 21:38:22,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Web.PhonebookWebModule, Phonebook.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookDataModule, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookCoreModule, Phonebook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookApplicationModule, Phonebook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Api.PhonebookWebApiModule, Phonebook.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:22,601 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-04-10 21:38:22,685 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-10 21:38:22,685 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-10 21:38:22,685 [1    ] o.Configuration.LanguageManagementConfig - Converted Phonebook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-10 21:38:22,685 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-10 21:38:22,903 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Phonebook.EntityFramework.PhonebookDbContext, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-10 21:38:23,708 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-10 21:38:23,712 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-10 21:38:23,714 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-10 21:38:23,715 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Phonebook
+DEBUG 2017-04-10 21:38:23,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-10 21:38:23,780 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-10 21:38:23,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-04-10 21:38:23,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-10 21:38:23,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-10 21:38:23,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.CreateUserInput
+DEBUG 2017-04-10 21:38:23,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.UserListDto
+DEBUG 2017-04-10 21:38:23,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-04-10 21:38:23,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-10 21:38:23,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-10 21:38:24,861 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-10 21:38:24,862 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-10 21:38:24,863 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-10 21:38:24,863 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-04-10 21:38:25,754 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-04-10 21:38:33,661 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d7d25a1b-2bb3-4395-95b9-9dd12080b58c","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-04-10T21:38:33.6573283+02:00","Properties":{}}
+DEBUG 2017-04-10 21:38:33,687 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d7d25a1b-2bb3-4395-95b9-9dd12080b58c
+DEBUG 2017-04-10 21:38:51,555 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d7d25a1b-2bb3-4395-95b9-9dd12080b58c
+DEBUG 2017-04-11 22:34:55,573 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-11 22:34:55,583 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-04-11 22:34:55,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Web.PhonebookWebModule, Phonebook.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookDataModule, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookCoreModule, Phonebook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookApplicationModule, Phonebook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Api.PhonebookWebApiModule, Phonebook.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:55,591 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-04-11 22:34:55,734 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-11 22:34:55,734 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-11 22:34:55,734 [1    ] o.Configuration.LanguageManagementConfig - Converted Phonebook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-11 22:34:55,734 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-11 22:34:55,949 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Phonebook.EntityFramework.PhonebookDbContext, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 22:34:56,834 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-11 22:34:56,839 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-11 22:34:56,841 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-11 22:34:56,842 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Phonebook
+DEBUG 2017-04-11 22:34:56,843 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-11 22:34:56,903 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-11 22:34:56,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-04-11 22:34:56,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.PersonListDto
+DEBUG 2017-04-11 22:34:56,944 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-11 22:34:56,944 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-11 22:34:56,944 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.CreateUserInput
+DEBUG 2017-04-11 22:34:56,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.UserListDto
+DEBUG 2017-04-11 22:34:56,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-04-11 22:34:56,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-11 22:34:56,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-11 22:34:57,938 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-11 22:34:57,939 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-11 22:34:57,939 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-11 22:34:57,940 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-04-11 22:35:00,035 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-04-11 22:35:08,550 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"aebf738d-e749-41e5-b34b-21d2b8182d71","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-04-11T22:35:08.5458758+02:00","Properties":{}}
+DEBUG 2017-04-11 22:35:08,575 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: aebf738d-e749-41e5-b34b-21d2b8182d71
+DEBUG 2017-04-11 22:44:16,696 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: aebf738d-e749-41e5-b34b-21d2b8182d71
+DEBUG 2017-04-11 23:04:49,668 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-11 23:04:49,677 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-04-11 23:04:49,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Web.PhonebookWebModule, Phonebook.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookDataModule, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookCoreModule, Phonebook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookApplicationModule, Phonebook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Api.PhonebookWebApiModule, Phonebook.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:49,685 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-04-11 23:04:49,772 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-11 23:04:49,772 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-11 23:04:49,772 [1    ] o.Configuration.LanguageManagementConfig - Converted Phonebook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-11 23:04:49,772 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-11 23:04:49,986 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Phonebook.EntityFramework.PhonebookDbContext, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-11 23:04:50,741 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-11 23:04:50,746 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-11 23:04:50,747 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-11 23:04:50,749 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Phonebook
+DEBUG 2017-04-11 23:04:50,749 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-11 23:04:50,805 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-11 23:04:50,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-04-11 23:04:50,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.PersonListDto
+DEBUG 2017-04-11 23:04:50,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-11 23:04:50,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-11 23:04:50,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.CreateUserInput
+DEBUG 2017-04-11 23:04:50,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.UserListDto
+DEBUG 2017-04-11 23:04:50,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-04-11 23:04:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-11 23:04:50,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-11 23:04:51,851 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-11 23:04:51,852 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-11 23:04:51,853 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-11 23:04:51,853 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-04-11 23:04:53,248 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-04-11 23:05:01,806 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"169482d6-7785-4cbe-a4e1-3e46801dd631","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-04-11T23:05:01.8019002+02:00","Properties":{}}
+DEBUG 2017-04-11 23:05:01,830 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 169482d6-7785-4cbe-a4e1-3e46801dd631
+DEBUG 2017-04-11 23:07:51,555 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 169482d6-7785-4cbe-a4e1-3e46801dd631

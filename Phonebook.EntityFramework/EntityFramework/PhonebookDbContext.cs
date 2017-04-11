@@ -1,4 +1,5 @@
 ﻿using System.Data.Common;
+using System.Data.Entity;
 using Abp.Zero.EntityFramework;
 using Phonebook.Authorization.Roles;
 using Phonebook.MultiTenancy;
@@ -15,6 +16,9 @@ namespace Phonebook.EntityFramework
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
          *   pass connection string name to base classes. ABP works either way.
          */
+        public virtual IDbSet<Person> Persons { get; set; }
+
+
         public PhonebookDbContext()
             : base("Default")
         {
@@ -44,16 +48,6 @@ namespace Phonebook.EntityFramework
 
         }
 
-        public virtual IDbSet<Person> Persons { get; set; }
 
-        //...other entities
-
-        public PhoneBookDbContext()
-            :base("Default")
-        {
-
-        }
-
-        //...other codes
     }
 }

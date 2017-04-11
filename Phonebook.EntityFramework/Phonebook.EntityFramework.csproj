@@ -139,12 +139,17 @@
   <ItemGroup>
     <Compile Include="EntityFramework\PhonebookDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\PhonebookRepositoryBase.cs" />
-    <Compile Include="Migrations\201701271145151_AbpZero_Initial.cs" />
-    <Compile Include="Migrations\201701271145151_AbpZero_Initial.Designer.cs">
-      <DependentUpon>201701271145151_AbpZero_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\AbpZero_Initial.cs" />
+    <Compile Include="Migrations\AbpZero_Initial.Designer.cs">
+      <DependentUpon>AbpZero_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Added_Person.cs" />
+    <Compile Include="Migrations\Added_Person.Designer.cs">
+      <DependentUpon>Added_Person.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\SeedData\InitialPeopleCreator.cs" />
     <Compile Include="PhonebookDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsCreator.cs" />
     <Compile Include="Migrations\SeedData\DefaultLanguagesCreator.cs" />
@@ -166,8 +171,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201701271145151_AbpZero_Initial.resx">
-      <DependentUpon>201701271145151_AbpZero_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\AbpZero_Initial.resx">
+      <DependentUpon>AbpZero_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\Added_Person.resx">
+      <DependentUpon>Added_Person.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

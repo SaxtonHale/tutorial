@@ -182,6 +182,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PersonAppService_Tests.cs" />
     <Compile Include="PhonebookTestModule.cs" />
     <Compile Include="MultiTenantFactAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
