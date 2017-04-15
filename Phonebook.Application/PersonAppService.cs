@@ -1,4 +1,5 @@
-﻿using Abp.Application.Services.Dto;
+﻿using Abp.Application.Services;
+using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
 using Abp.Collections.Extensions;
 using Abp.Domain.Repositories;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Phonebook
 {
-    public interface IPersonAppService
+    public interface IPersonAppService : IApplicationService
     {
         ListResultDto<PersonListDto> GetPeople(GetPeopleInput input);
     }

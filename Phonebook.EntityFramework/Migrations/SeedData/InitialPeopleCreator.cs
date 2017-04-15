@@ -7,7 +7,7 @@ using Phonebook.EntityFramework;
 
 namespace Phonebook.Migrations.SeedData
 {
-    class InitialPeopleCreator
+    public class InitialPeopleCreator
     {
         private readonly PhonebookDbContext _context;
 
@@ -28,6 +28,7 @@ namespace Phonebook.Migrations.SeedData
                         Surname = "Adams",
                         EmailAddress = "douglas.adams@fortytwo.com"
                     });
+                _context.SaveChanges();
             }
 
             var asimov = _context.Persons.FirstOrDefault(p => p.EmailAddress == "isaac.asimov@foundation.org");
@@ -40,8 +41,10 @@ namespace Phonebook.Migrations.SeedData
                         Surname = "Asimov",
                         EmailAddress = "isaac.asimov@foundation.org"
                     });
+                _context.SaveChanges();
             }
         }
+
 
 
     }

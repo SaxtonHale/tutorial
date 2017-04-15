@@ -28,6 +28,7 @@ namespace Phonebook.Migrations
                 //Default tenant seed (in host database).
                 new DefaultTenantCreator(context).Create();
                 new TenantRoleAndUserBuilder(context, 1).Create();
+                new InitialPeopleCreator(context).Create();
             }
             else
             {
