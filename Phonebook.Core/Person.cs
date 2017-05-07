@@ -26,5 +26,7 @@ namespace Phonebook
 
         [MaxLength(MaxEmailAddressLength)]
         public virtual string EmailAddress { get; set; }
+
+        public virtual string PhoneNumber { get; set; }
     }
 }

@@ -2030,3 +2030,436 @@ Abp.UI.UserFriendlyException: Login failed!
 DEBUG 2017-05-07 10:09:42,431 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8a0e469a-103c-4858-bab6-14be3a2db10c","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T10:09:42.4258119+02:00","Properties":{}}
 DEBUG 2017-05-07 10:09:42,453 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8a0e469a-103c-4858-bab6-14be3a2db10c
 WARN  2017-05-07 10:09:45,177 [21   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:14:30,492 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-07 14:14:30,505 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-05-07 14:14:30,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Web.PhonebookWebModule, Phonebook.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookDataModule, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookCoreModule, Phonebook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookApplicationModule, Phonebook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Api.PhonebookWebApiModule, Phonebook.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,513 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:30,516 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-05-07 14:14:30,656 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:14:30,656 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:14:30,656 [1    ] o.Configuration.LanguageManagementConfig - Converted Phonebook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:14:30,656 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:14:31,125 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Phonebook.EntityFramework.PhonebookDbContext, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:14:32,590 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-07 14:14:32,598 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-07 14:14:32,600 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-07 14:14:32,603 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Phonebook
+DEBUG 2017-05-07 14:14:32,604 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-07 14:14:32,711 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-07 14:14:32,776 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-05-07 14:14:32,776 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.CreatePersonInput
+DEBUG 2017-05-07 14:14:32,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.PersonListDto
+DEBUG 2017-05-07 14:14:32,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-07 14:14:32,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-07 14:14:32,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.CreateUserInput
+DEBUG 2017-05-07 14:14:32,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.UserListDto
+DEBUG 2017-05-07 14:14:32,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-07 14:14:32,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-07 14:14:32,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-07 14:14:34,693 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.IPersonAppService' with service name 'app/person'.
+DEBUG 2017-05-07 14:14:34,694 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-07 14:14:34,695 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-07 14:14:34,696 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-07 14:14:34,698 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-05-07 14:14:36,176 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-05-07 14:15:06,277 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fdef2fa4-1274-4ff2-bf6b-6209955e5dc4","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:15:06.2665391+02:00","Properties":{}}
+DEBUG 2017-05-07 14:15:06,355 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fdef2fa4-1274-4ff2-bf6b-6209955e5dc4
+WARN  2017-05-07 14:15:13,823 [6    ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:22:06,885 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-07 14:22:06,901 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-05-07 14:22:06,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Web.PhonebookWebModule, Phonebook.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookDataModule, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookCoreModule, Phonebook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookApplicationModule, Phonebook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Api.PhonebookWebApiModule, Phonebook.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:06,914 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-05-07 14:22:07,109 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:22:07,109 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:22:07,109 [1    ] o.Configuration.LanguageManagementConfig - Converted Phonebook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:22:07,109 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:22:07,617 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Phonebook.EntityFramework.PhonebookDbContext, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:22:09,007 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-07 14:22:09,016 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-07 14:22:09,018 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-07 14:22:09,021 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Phonebook
+DEBUG 2017-05-07 14:22:09,022 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-07 14:22:09,140 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-07 14:22:09,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-05-07 14:22:09,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.CreatePersonInput
+DEBUG 2017-05-07 14:22:09,231 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.PersonListDto
+DEBUG 2017-05-07 14:22:09,232 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-07 14:22:09,232 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-07 14:22:09,232 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.CreateUserInput
+DEBUG 2017-05-07 14:22:09,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.UserListDto
+DEBUG 2017-05-07 14:22:09,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-07 14:22:09,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-07 14:22:09,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-07 14:22:11,388 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.IPersonAppService' with service name 'app/person'.
+DEBUG 2017-05-07 14:22:11,389 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-07 14:22:11,391 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-07 14:22:11,393 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-07 14:22:11,394 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-07 14:22:20,320 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"822bb0ce-6b1c-49c4-ae3c-ba04b6d252f5","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:22:20.3092895+02:00","Properties":{}}
+DEBUG 2017-05-07 14:22:20,398 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 822bb0ce-6b1c-49c4-ae3c-ba04b6d252f5
+DEBUG 2017-05-07 14:25:43,956 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 822bb0ce-6b1c-49c4-ae3c-ba04b6d252f5
+DEBUG 2017-05-07 14:25:45,143 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8f74a53d-5ad8-4906-9d30-fecd3a41d91e","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:25:45.142599+02:00","Properties":{}}
+DEBUG 2017-05-07 14:25:45,152 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8f74a53d-5ad8-4906-9d30-fecd3a41d91e
+WARN  2017-05-07 14:26:05,465 [15   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:26:05,467 [15   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:26:08,430 [15   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:27:30,571 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8f74a53d-5ad8-4906-9d30-fecd3a41d91e
+DEBUG 2017-05-07 14:27:32,565 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"694cdce6-665e-481d-81e4-1a6b5c192a6c","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:27:32.565008+02:00","Properties":{}}
+DEBUG 2017-05-07 14:27:32,580 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 694cdce6-665e-481d-81e4-1a6b5c192a6c
+WARN  2017-05-07 14:27:32,787 [34   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:27:32,788 [34   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:27:33,699 [36   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:28:28,682 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 694cdce6-665e-481d-81e4-1a6b5c192a6c
+DEBUG 2017-05-07 14:28:29,674 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7ae65bf7-40c5-42bb-84a3-df0081b4340c","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:28:29.6743582+02:00","Properties":{}}
+DEBUG 2017-05-07 14:28:29,773 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7ae65bf7-40c5-42bb-84a3-df0081b4340c
+WARN  2017-05-07 14:28:30,019 [10   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:28:30,021 [10   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:28:32,398 [10   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:29:57,759 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7ae65bf7-40c5-42bb-84a3-df0081b4340c
+WARN  2017-05-07 14:29:58,779 [10   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:29:58,780 [10   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:29:59,089 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"049fce7e-181f-41b5-ab0f-6c0fd5dc09bf","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:29:59.0886667+02:00","Properties":{}}
+DEBUG 2017-05-07 14:29:59,163 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 049fce7e-181f-41b5-ab0f-6c0fd5dc09bf
+WARN  2017-05-07 14:29:59,755 [29   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:31:10,732 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 049fce7e-181f-41b5-ab0f-6c0fd5dc09bf
+DEBUG 2017-05-07 14:31:12,313 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a416794e-1c1b-4474-9232-bd2def1a1850","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:31:12.3118913+02:00","Properties":{}}
+DEBUG 2017-05-07 14:31:12,345 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a416794e-1c1b-4474-9232-bd2def1a1850
+WARN  2017-05-07 14:31:13,440 [42   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:31:13,441 [42   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:31:13,442 [42   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:31:21,683 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a416794e-1c1b-4474-9232-bd2def1a1850
+DEBUG 2017-05-07 14:31:23,878 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ba2b3250-a6dc-42e4-b5a7-8f9c061971f4","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:31:23.8773654+02:00","Properties":{}}
+DEBUG 2017-05-07 14:31:24,105 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ba2b3250-a6dc-42e4-b5a7-8f9c061971f4
+WARN  2017-05-07 14:31:24,320 [22   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:31:24,321 [22   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:31:24,322 [22   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:31:55,923 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ba2b3250-a6dc-42e4-b5a7-8f9c061971f4
+DEBUG 2017-05-07 14:31:56,987 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"34e2cc4b-aede-49c8-9bc6-2bda9dddd192","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:31:56.9871799+02:00","Properties":{}}
+DEBUG 2017-05-07 14:31:56,998 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 34e2cc4b-aede-49c8-9bc6-2bda9dddd192
+WARN  2017-05-07 14:31:57,577 [42   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:31:57,577 [42   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:31:57,578 [42   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:32:05,736 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 34e2cc4b-aede-49c8-9bc6-2bda9dddd192
+DEBUG 2017-05-07 14:32:06,759 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f7136b07-6fc3-4315-b289-11d1536e915b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:32:06.7582975+02:00","Properties":{}}
+DEBUG 2017-05-07 14:32:06,833 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f7136b07-6fc3-4315-b289-11d1536e915b
+WARN  2017-05-07 14:32:08,333 [36   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:32:08,334 [36   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:32:08,337 [36   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:32:47,549 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f7136b07-6fc3-4315-b289-11d1536e915b
+DEBUG 2017-05-07 14:32:50,003 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0008991f-c974-41b9-9d1b-c98954df7d04","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:32:50.0029576+02:00","Properties":{}}
+DEBUG 2017-05-07 14:32:50,036 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0008991f-c974-41b9-9d1b-c98954df7d04
+WARN  2017-05-07 14:32:50,559 [42   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:32:50,560 [42   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:32:50,561 [42   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:32:54,062 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0008991f-c974-41b9-9d1b-c98954df7d04
+DEBUG 2017-05-07 14:32:54,665 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0f8cb490-55f5-4a45-81ff-b26e27fff0a0","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:32:54.6647377+02:00","Properties":{}}
+DEBUG 2017-05-07 14:32:54,675 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0f8cb490-55f5-4a45-81ff-b26e27fff0a0
+WARN  2017-05-07 14:32:55,003 [42   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:32:55,004 [42   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:32:55,004 [42   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:34:17,280 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0f8cb490-55f5-4a45-81ff-b26e27fff0a0
+DEBUG 2017-05-07 14:34:18,113 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"851b37bf-04a8-4f55-8eeb-44939f07e8ca","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:34:18.1132164+02:00","Properties":{}}
+DEBUG 2017-05-07 14:34:18,159 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 851b37bf-04a8-4f55-8eeb-44939f07e8ca
+WARN  2017-05-07 14:34:19,394 [41   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:34:19,394 [41   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:34:58,048 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 851b37bf-04a8-4f55-8eeb-44939f07e8ca
+DEBUG 2017-05-07 14:34:58,790 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"97c6a391-c152-49a4-bb1f-d3350c31bc02","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:34:58.7896353+02:00","Properties":{}}
+DEBUG 2017-05-07 14:34:58,796 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 97c6a391-c152-49a4-bb1f-d3350c31bc02
+WARN  2017-05-07 14:35:00,198 [20   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:00,199 [20   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:00,204 [20   ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:00,205 [20   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:35:07,103 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 97c6a391-c152-49a4-bb1f-d3350c31bc02
+DEBUG 2017-05-07 14:35:08,257 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"36040db6-6f49-4748-94de-a78ca891479a","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:35:08.2566491+02:00","Properties":{}}
+DEBUG 2017-05-07 14:35:08,327 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 36040db6-6f49-4748-94de-a78ca891479a
+WARN  2017-05-07 14:35:09,018 [42   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:09,018 [42   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:09,020 [42   ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:09,020 [42   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:35:15,156 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 36040db6-6f49-4748-94de-a78ca891479a
+DEBUG 2017-05-07 14:35:16,077 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"75f6a846-ff28-406b-acb1-83c5c6ce42f6","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:35:16.0770011+02:00","Properties":{}}
+DEBUG 2017-05-07 14:35:16,080 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 75f6a846-ff28-406b-acb1-83c5c6ce42f6
+WARN  2017-05-07 14:35:17,263 [36   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:17,264 [36   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:17,266 [36   ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:17,266 [36   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:35:36,558 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 75f6a846-ff28-406b-acb1-83c5c6ce42f6
+DEBUG 2017-05-07 14:35:37,833 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c72c5bf5-d63a-4377-b4f8-7356d001a6a4","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:35:37.832823+02:00","Properties":{}}
+DEBUG 2017-05-07 14:35:37,881 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c72c5bf5-d63a-4377-b4f8-7356d001a6a4
+WARN  2017-05-07 14:35:38,642 [8    ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:38,642 [8    ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:38,644 [8    ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:35:38,644 [8    ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:37:43,197 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c72c5bf5-d63a-4377-b4f8-7356d001a6a4
+DEBUG 2017-05-07 14:37:44,135 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7b5240f7-d51e-47f6-91da-eca2bf3b4bbf","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:37:44.1352558+02:00","Properties":{}}
+DEBUG 2017-05-07 14:37:44,188 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7b5240f7-d51e-47f6-91da-eca2bf3b4bbf
+WARN  2017-05-07 14:37:45,123 [36   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:37:45,124 [36   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:37:45,126 [36   ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:37:45,126 [36   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:41:24,846 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-07 14:41:24,866 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-05-07 14:41:24,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Web.PhonebookWebModule, Phonebook.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookDataModule, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookCoreModule, Phonebook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookApplicationModule, Phonebook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Api.PhonebookWebApiModule, Phonebook.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:24,885 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-05-07 14:41:25,054 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:41:25,054 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:41:25,054 [1    ] o.Configuration.LanguageManagementConfig - Converted Phonebook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:41:25,054 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:41:25,484 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Phonebook.EntityFramework.PhonebookDbContext, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:41:26,817 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-07 14:41:26,824 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-07 14:41:26,826 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-07 14:41:26,828 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Phonebook
+DEBUG 2017-05-07 14:41:26,830 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-07 14:41:26,939 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-07 14:41:27,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-05-07 14:41:27,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.CreatePersonInput
+DEBUG 2017-05-07 14:41:27,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.PersonListDto
+DEBUG 2017-05-07 14:41:27,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-07 14:41:27,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-07 14:41:27,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.CreateUserInput
+DEBUG 2017-05-07 14:41:27,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.UserListDto
+DEBUG 2017-05-07 14:41:27,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-07 14:41:27,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-07 14:41:27,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-07 14:41:28,968 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.IPersonAppService' with service name 'app/person'.
+DEBUG 2017-05-07 14:41:28,969 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-07 14:41:28,970 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-07 14:41:28,972 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-07 14:41:28,973 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-07 14:41:36,401 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7b02c3f8-4fc1-4ef1-8b66-5c33d6c6fd2d","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:41:36.3913432+02:00","Properties":{}}
+DEBUG 2017-05-07 14:41:36,536 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7b02c3f8-4fc1-4ef1-8b66-5c33d6c6fd2d
+WARN  2017-05-07 14:42:01,321 [6    ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:42:01,322 [6    ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:42:01,325 [6    ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:42:01,326 [6    ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:50:48,638 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-07 14:50:48,654 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-05-07 14:50:48,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Web.PhonebookWebModule, Phonebook.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookDataModule, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookCoreModule, Phonebook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookApplicationModule, Phonebook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Api.PhonebookWebApiModule, Phonebook.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:48,666 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-05-07 14:50:48,801 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:50:48,801 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:50:48,801 [1    ] o.Configuration.LanguageManagementConfig - Converted Phonebook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:50:48,801 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 14:50:49,202 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Phonebook.EntityFramework.PhonebookDbContext, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 14:50:50,445 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-07 14:50:50,452 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-07 14:50:50,454 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-07 14:50:50,457 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Phonebook
+DEBUG 2017-05-07 14:50:50,458 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-07 14:50:50,564 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-07 14:50:50,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-05-07 14:50:50,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.EditPersonDto
+DEBUG 2017-05-07 14:50:50,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.CreatePersonInput
+DEBUG 2017-05-07 14:50:50,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.PersonListDto
+DEBUG 2017-05-07 14:50:50,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-07 14:50:50,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-07 14:50:50,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.CreateUserInput
+DEBUG 2017-05-07 14:50:50,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.UserListDto
+DEBUG 2017-05-07 14:50:50,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-07 14:50:50,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-07 14:50:50,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-07 14:50:52,377 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.IPersonAppService' with service name 'app/person'.
+DEBUG 2017-05-07 14:50:52,378 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-07 14:50:52,379 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-07 14:50:52,380 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-07 14:50:52,381 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-07 14:50:58,621 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"749add45-4952-4437-bc6d-54af16a089c1","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:50:58.6105083+02:00","Properties":{}}
+DEBUG 2017-05-07 14:50:58,673 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 749add45-4952-4437-bc6d-54af16a089c1
+WARN  2017-05-07 14:51:01,916 [8    ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:51:01,918 [8    ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:51:01,919 [8    ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:51:01,920 [8    ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+WARN  2017-05-07 14:51:01,921 [8    ] Abp.Logging.LogHelper                    - Can not find 'Edit' in localization source 'Phonebook'!
+WARN  2017-05-07 14:51:03,793 [10   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:51:19,678 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 749add45-4952-4437-bc6d-54af16a089c1
+WARN  2017-05-07 14:51:21,110 [28   ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:51:21,117 [28   ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:51:21,119 [28   ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:51:21,120 [28   ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+WARN  2017-05-07 14:51:21,121 [28   ] Abp.Logging.LogHelper                    - Can not find 'Edit' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:51:21,688 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6d7da919-6784-42cf-8782-75409cffbaf4","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:51:21.6884037+02:00","Properties":{}}
+DEBUG 2017-05-07 14:51:21,729 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6d7da919-6784-42cf-8782-75409cffbaf4
+WARN  2017-05-07 14:51:22,921 [8    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:52:06,171 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6d7da919-6784-42cf-8782-75409cffbaf4
+WARN  2017-05-07 14:52:07,337 [6    ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:52:07,338 [6    ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:52:07,341 [6    ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:52:07,342 [6    ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+WARN  2017-05-07 14:52:07,343 [6    ] Abp.Logging.LogHelper                    - Can not find 'Edit' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:52:07,875 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0a31b286-4ada-4188-8708-dde9ba2e77c2","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:52:07.8748505+02:00","Properties":{}}
+DEBUG 2017-05-07 14:52:07,916 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0a31b286-4ada-4188-8708-dde9ba2e77c2
+WARN  2017-05-07 14:52:09,115 [17   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:52:28,120 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0a31b286-4ada-4188-8708-dde9ba2e77c2
+DEBUG 2017-05-07 14:52:29,594 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1301d485-126d-481b-b1d1-92ff9dab42af","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:52:29.5937334+02:00","Properties":{}}
+DEBUG 2017-05-07 14:52:29,667 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1301d485-126d-481b-b1d1-92ff9dab42af
+WARN  2017-05-07 14:52:29,875 [7    ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:52:29,876 [7    ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:52:29,878 [7    ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:52:29,879 [7    ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+WARN  2017-05-07 14:52:29,880 [7    ] Abp.Logging.LogHelper                    - Can not find 'Edit' in localization source 'Phonebook'!
+WARN  2017-05-07 14:52:32,160 [26   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 14:53:48,839 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1301d485-126d-481b-b1d1-92ff9dab42af
+DEBUG 2017-05-07 14:53:49,907 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f6588630-a907-4db5-82c5-f297526185c6","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T14:53:49.906181+02:00","Properties":{}}
+DEBUG 2017-05-07 14:53:49,919 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f6588630-a907-4db5-82c5-f297526185c6
+WARN  2017-05-07 14:53:51,068 [7    ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 14:53:51,069 [7    ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:53:51,072 [7    ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 14:53:51,074 [7    ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+WARN  2017-05-07 14:53:51,076 [7    ] Abp.Logging.LogHelper                    - Can not find 'Edit' in localization source 'Phonebook'!
+WARN  2017-05-07 14:53:53,794 [8    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+WARN  2017-05-07 14:53:53,794 [8    ] Abp.Logging.LogHelper                    - Can not find 'UpdatePerson' in localization source 'Phonebook'!
+DEBUG 2017-05-07 15:03:31,512 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-07 15:03:31,529 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-05-07 15:03:31,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Web.PhonebookWebModule, Phonebook.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,536 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookDataModule, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,536 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,536 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookCoreModule, Phonebook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.PhonebookApplicationModule, Phonebook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Phonebook.Api.PhonebookWebApiModule, Phonebook.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:31,542 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-05-07 15:03:31,705 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 15:03:31,705 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 15:03:31,705 [1    ] o.Configuration.LanguageManagementConfig - Converted Phonebook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 15:03:31,705 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-07 15:03:32,128 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Phonebook.EntityFramework.PhonebookDbContext, Phonebook.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-07 15:03:33,408 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-07 15:03:33,416 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-07 15:03:33,418 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-07 15:03:33,420 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Phonebook
+DEBUG 2017-05-07 15:03:33,421 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-07 15:03:33,531 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-07 15:03:33,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-05-07 15:03:33,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.EditPersonDto
+DEBUG 2017-05-07 15:03:33,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.CreatePersonInput
+DEBUG 2017-05-07 15:03:33,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.PersonListDto
+DEBUG 2017-05-07 15:03:33,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-07 15:03:33,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-07 15:03:33,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.CreateUserInput
+DEBUG 2017-05-07 15:03:33,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Users.Dto.UserListDto
+DEBUG 2017-05-07 15:03:33,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-07 15:03:33,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-07 15:03:33,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Phonebook.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-07 15:03:35,421 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.IPersonAppService' with service name 'app/person'.
+DEBUG 2017-05-07 15:03:35,422 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-07 15:03:35,423 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-07 15:03:35,424 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-07 15:03:35,425 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Phonebook.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-07 15:03:41,962 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d1618c55-85ec-46e1-9cec-176015012f3b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-05-07T15:03:41.9528616+02:00","Properties":{}}
+DEBUG 2017-05-07 15:03:42,034 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d1618c55-85ec-46e1-9cec-176015012f3b
+WARN  2017-05-07 15:03:44,272 [8    ] Abp.Logging.LogHelper                    - Can not find 'AllPeople' in localization source 'Phonebook'!
+WARN  2017-05-07 15:03:44,273 [8    ] Abp.Logging.LogHelper                    - Can not find 'CreatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 15:03:44,274 [8    ] Abp.Logging.LogHelper                    - Can not find 'PhoneNumber' in localization source 'Phonebook'!
+WARN  2017-05-07 15:03:44,275 [8    ] Abp.Logging.LogHelper                    - Can not find 'Actions' in localization source 'Phonebook'!
+WARN  2017-05-07 15:03:44,275 [8    ] Abp.Logging.LogHelper                    - Can not find 'Delete' in localization source 'Phonebook'!
+WARN  2017-05-07 15:03:44,276 [8    ] Abp.Logging.LogHelper                    - Can not find 'Edit' in localization source 'Phonebook'!
+WARN  2017-05-07 15:03:46,962 [6    ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'Phonebook'!
+WARN  2017-05-07 15:03:46,964 [6    ] Abp.Logging.LogHelper                    - Can not find 'UpdatePerson' in localization source 'Phonebook'!
+WARN  2017-05-07 15:03:46,965 [6    ] Abp.Logging.LogHelper                    - Can not find 'PhoneNumber' in localization source 'Phonebook'!
