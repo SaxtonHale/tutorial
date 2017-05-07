@@ -7,6 +7,7 @@ using Abp.Extensions;
 using Abp.Linq.Extensions;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,24 @@ namespace Phonebook
     public interface IPersonAppService : IApplicationService
     {
         ListResultDto<PersonListDto> GetPeople(GetPeopleInput input);
+
+        Task CreatePerson(CreatePersonInput input);
+
+        [AutoMapTo(typeof(Person))]
+        public class CreatePersonInput
+        {
+            [Required]
+            [MaxLength(Person.MaxNameLength)]
+            public string Name { get; set; }
+
+            [Required]
+            [MaxLength(Person.MaxSurnameLength)]
+            public string Surname { get; set; }
+
+            [Required]
+            [MaxLength(Person.MaxEmailAddressLength)]
+            public string EmailAddress { get; set; }
+        }
     }
 
     public class GetPeopleInput
