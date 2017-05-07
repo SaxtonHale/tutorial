@@ -1,0 +1,39 @@
+﻿@using Abp.Authorization.Users
+<div>
+    <form name="userCreateForm" role="form" novalidate class="form-validation">
+        <div class="modal-header">
+            <h4 class="modal-title">
+                <span ng-if="vm.personId === null">@L("CreateNewPerson")</span>
+                <span ng-if="vm.personId !== null">@L("UpdatePerson")</span>
+
+            </h4>
+        </div>
+        <div class="modal-body">
+
+            <div class="form-group">
+                <label>@L("Name")</label>
+                <input type="text" name="Name" class="form-control" ng-model="vm.person.name" required maxlength="@Phonebook.Users.User.MaxNameLength">
+            </div>
+
+            <div class="form-group">
+                <label>@L("Surname")</label>
+                <input type="text" name="Surname" class="form-control" ng-model="vm.person.surname" required maxlength="@Phonebook.Users.User.MaxSurnameLength">
+            </div>
+
+            <div class="form-group">
+                <label>@L("EmailAddress")</label>
+                <input type="email" name="EmailAddress" class="form-control" ng-model="vm.person.emailAddress" required maxlength="@Phonebook.Users.User.MaxEmailAddressLength">
+            </div>
+            
+            <div class="form-group">
+                <label>@L("PhoneNumber")</label>
+                <input type="text" name="Name" class="form-control" ng-model="vm.person.phoneNumber" required>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Cancel")</button>
+            <button type="submit" class="btn btn-primary blue" ng-click="vm.save()" ng-disabled="userCreateForm.$invalid"><i class="fa fa-save"></i> <span>@L("Save")</span></button>
+        </div>
+    </form>
+</div>

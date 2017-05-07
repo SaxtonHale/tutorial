@@ -351,6 +351,7 @@
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\home\home.js" />
     <Content Include="App\Main\views\about\about.js" />
+    <Content Include="App\Main\views\phonebook\createModal.js" />
     <Content Include="App\Main\views\phonebook\index.js" />
     <Content Include="App\Main\views\users\createModal.js" />
     <Content Include="App\Main\views\users\index.js" />
@@ -490,6 +491,7 @@
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
     <Content Include="App\Main\views\phonebook\index.cshtml" />
+    <Content Include="App\Main\views\phonebook\createModal.cshtml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <None Include="Scripts\jquery-2.2.0-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />

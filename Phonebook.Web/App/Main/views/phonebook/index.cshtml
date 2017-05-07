@@ -3,17 +3,29 @@
         <div class="col-md-12">
 
             <h3>@L("AllPeople")</h3>
+            <button class="btn btn-primary blue" ng-click="vm.createPerson()">@L("CreatePerson")</button>
+            <table class="table">
+                <tr>
+                    <th>@L("Name")</th>
+                    <th>@L("Surname")</th>
+                    <th>@L("EmailAddress")</th>
+                    <th>@L("PhoneNumber")</th>
+                    <th>@L("Actions")</th>
 
-            <div class="list-group">
-                <a href="javascript:;" class="list-group-item" ng-repeat="person in vm.persons">
-                    <h4 class="list-group-item-heading">
-                        {{person.name}} {{person.surname}}
-                    </h4>
-                    <p class="list-group-item-text">
-                        {{person.emailAddress}}
-                    </p>
-                </a>
-            </div>
+                </tr>
+                <tr ng-repeat="person in vm.persons">
+                    <td>{{person.name}}</td>
+                    <td>{{person.surname}}</td>
+                    <td>{{person.emailAddress}}</td>
+                    <td>{{person.phoneNumber}}</td>
+                    <td>
+                        <a class="btn btn-danger"ng-click="vm.deletePerson(person.id)">@L("Delete")</a>
+                        <a class="btn btn-warning"ng-click="vm.editPerson(person.id)">@L("Edit")</a>
+
+                    </td>
+
+                </tr>
+            </table>
 
         </div>
     </div>

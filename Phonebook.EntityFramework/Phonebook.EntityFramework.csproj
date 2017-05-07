@@ -139,6 +139,10 @@
   <ItemGroup>
     <Compile Include="EntityFramework\PhonebookDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\PhonebookRepositoryBase.cs" />
+    <Compile Include="Migrations\201705071303034_AddedPhoneNumber.cs" />
+    <Compile Include="Migrations\201705071303034_AddedPhoneNumber.Designer.cs">
+      <DependentUpon>201705071303034_AddedPhoneNumber.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZero_Initial.cs" />
     <Compile Include="Migrations\AbpZero_Initial.Designer.cs">
       <DependentUpon>AbpZero_Initial.cs</DependentUpon>
@@ -171,6 +175,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\201705071303034_AddedPhoneNumber.resx">
+      <DependentUpon>201705071303034_AddedPhoneNumber.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\AbpZero_Initial.resx">
       <DependentUpon>AbpZero_Initial.cs</DependentUpon>
     </EmbeddedResource>
